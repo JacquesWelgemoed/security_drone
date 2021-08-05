@@ -1,0 +1,23 @@
+plugin blacklist:
+- '*'
+
+plugin whitelis: 
+- 'sys_*'
+- altitude
+- command
+- ftp
+- global_position
+- imu
+- local*
+- manual_control
+- param
+- rc_io
+- setpoint_attitude
+- setpoint_position
+- setpoint_raw
+- setpoint_velocity
+- sys_status
+- sys_time
+- vision_pose_estimate
+- waypoint
+

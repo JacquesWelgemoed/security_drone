@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch mission_gen_server-->
+    <node pkg="mission" type="mission_gen_server.py" name="mission_gen_server"/>
+    
+    <node pkg="mission" type="run_mission.py" name="run_mission" output="screen">
+        <param name="rally_latitude" value="10"/>
+        <param name="rally_longitude" value="50"/>
+    </node>
+
+    <node pkg="mission" type="takeoff_request_server.py" name="takeoff_server" output="screen"/>
+    <node pkg="mission" type="landing_server.py" name="landing_server"/>
+    <node pkg="mission" type="precision_landing.py" name="precision_landing" output="screen"/>
+</launch>

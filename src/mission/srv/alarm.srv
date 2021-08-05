@@ -1,0 +1,5 @@
+float64 latitude   #GPS lattitude of alarm location
+float64 longitude   #GPS longitude of alarm location
+time stamp       #Time when alarm was triggered
+--- 
+bool success        #Returns a success once a mission has been generated to reach the alarm source

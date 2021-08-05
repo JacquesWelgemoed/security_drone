@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<multimarker markers="5">
+	<!-- Center Tag-->
+	<marker index="105" status="2">
+		<corner x="-10" y="-10" z="0"/>
+		<corner x="10" y="-10" z="0"/>
+		<corner x="10" y="10" z="0"/>
+		<corner x="-10" y="10" z="0"/>
+	</marker>
+	
+	<!-- Bottom Left Tag-->
+	<marker index="104" status="2">
+		<corner x="-40" y="-40" z="0"/>
+		<corner x="-20" y="-40" z="0"/>
+		<corner x="-20" y="-20" z="0"/>
+		<corner x="-40" y="-20" z="0"/>
+	</marker>
+
+	<!-- Bottom Right Tag-->
+	<marker index="103" status="2">
+		<corner x="20" y="-40" z="0"/>
+		<corner x="40" y="-40" z="0"/>
+		<corner x="40" y="-20" z="0"/>
+		<corner x="20" y="-20" z="0"/>
+	</marker>
+
+	<!-- Top Right Tag-->
+	<marker index="102" status="2">
+		<corner x="20" y="20" z="0"/>
+		<corner x="40" y="20" z="0"/>
+		<corner x="40" y="40" z="0"/>
+		<corner x="20" y="40" z="0"/>
+	</marker>
+
+
+	<!-- Top Left Tag-->
+	<marker index="101" status="2">
+		<corner x="-40" y="20" z="0"/>
+		<corner x="-20" y="20" z="0"/>
+		<corner x="-20" y="40" z="0"/>
+		<corner x="-40" y="40" z="0"/>
+	</marker>
+</multimarker>

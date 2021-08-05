@@ -1,0 +1,3 @@
+string ExecutionState
+float64 alarmLatitude
+float64 alarmLongitude

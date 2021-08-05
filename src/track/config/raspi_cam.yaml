@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: raspi_cam
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [499.1432156721699, 0, 321.7600134401399, 0, 501.9996501080423, 243.7872002078979, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.133867482608165, -0.2133756250079613, 0.0008852715187635138, -0.003471309105437683, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [508.1030578613281, 0, 319.1968495264555, 0, 0, 512.5399780273438, 243.6168727654604, 0, 0, 0, 1, 0]
